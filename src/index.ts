@@ -1,5 +1,7 @@
 import { AppDataSource } from './data-source';
 import app from './app';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 import { port } from './config';
 
